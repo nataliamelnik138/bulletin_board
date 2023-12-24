@@ -27,7 +27,7 @@ class User(AbstractUser):
     phone = models.CharField(max_length=35, verbose_name='Телефон', blank=True, null=True, )
 
     USERNAME_FIELD = "email"
-    REQUIRED_FIELDS = []
+    REQUIRED_FIELDS = ['first_name', 'last_name', 'phone']
 
     objects = UserManager()
 

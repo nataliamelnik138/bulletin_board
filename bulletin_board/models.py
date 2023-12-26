@@ -9,6 +9,12 @@ class Advertisement(models.Model):
     description = models.TextField(verbose_name='описание товара', blank=True, null=True)
     author = models.ForeignKey(User, on_delete=models.CASCADE, verbose_name='владелец', related_name='advertisements')
     created_at = models.DateTimeField(auto_now_add=True, verbose_name='дата создания')
+    image = models.ImageField(
+        upload_to='ads/',
+        blank=True,
+        null=True,
+        verbose_name='изображение'
+    )
 
     def __str__(self):
         return self.title

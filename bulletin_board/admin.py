@@ -1,13 +1,13 @@
 from django.contrib import admin
 
-from bulletin_board.models import Advertisement, Review
+from bulletin_board.models import Ad, Comment
 
 
-@admin.register(Advertisement)
-class AdvertisementAdmin(admin.ModelAdmin):
+@admin.register(Ad)
+class AdAdmin(admin.ModelAdmin):
     list_display = ('pk', 'title', 'price', 'author', 'created_at',)
 
 
-@admin.register(Review)
-class ReviewAdmin(admin.ModelAdmin):
-    list_display = ('pk', 'text', 'created_at', 'advertisement', 'author', )
+@admin.register(Comment)
+class CommentAdmin(admin.ModelAdmin):
+    list_display = ('pk', 'text', 'created_at', 'ad', 'author', )

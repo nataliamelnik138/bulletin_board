@@ -1,0 +1,62 @@
+[
+  {
+    "model": "bulletin_board.ad",
+    "fields": {
+      "title": "Bag",
+      "price": 3000,
+      "description": "The bag is new",
+      "author": 2,
+      "created_at": "2023-12-25",
+      "image": ""
+    }
+  },
+  {
+    "model": "bulletin_board.ad",
+    "fields": {
+      "title": "Women's boots",
+      "price": 2000,
+      "description": "Women's boots in good condition",
+      "author": 2,
+      "created_at": "2023-12-26",
+      "image": ""
+    }
+  },
+  {
+    "model": "bulletin_board.ad",
+    "fields": {
+      "title": "Table",
+      "price": 2500,
+      "description": "Kitchen table",
+      "author": 3,
+      "created_at": "2023-12-26",
+      "image": ""
+    }
+  },
+  {
+    "model": "bulletin_board.comment",
+    "fields": {
+      "text": "good bag",
+      "author": 3,
+      "created_at": "2023-12-27",
+      "ad": 1
+    }
+  },
+  {
+    "model": "bulletin_board.comment",
+    "fields": {
+      "text": "What materials is the table made of?",
+      "author": 2,
+      "created_at": "2023-12-27",
+      "ad": 2
+    }
+  },
+  {
+    "model": "bulletin_board.comment",
+    "fields": {
+      "text": "Is bargaining appropriate?",
+      "author": 3,
+      "created_at": "2023-12-28",
+      "ad": 3
+    }
+  }
+]

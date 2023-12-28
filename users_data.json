@@ -1,0 +1,47 @@
+[
+  {
+    "model": "users.user",
+    "fields": {
+      "password": "pbkdf2_sha256$720000$RZnNMPXNh44t4M6iOxwwJh$0QRkOisEGkhYcV7tyL2o+7Fx23rpsH4xxbgIP3qmWHQ=",
+      "is_superuser": true,
+      "first_name": "Admin",
+      "last_name": "Admin",
+      "is_staff": true,
+      "is_active": true,
+      "email": "admin@sky.pro",
+      "role": "admin",
+      "image": "",
+      "phone": null
+    }
+  },
+  {
+    "model": "users.user",
+    "fields": {
+      "password": "pbkdf2_sha256$720000$RZnNMPXNh44t4M6iOxwwJh$0QRkOisEGkhYcV7tyL2o+7Fx23rpsH4xxbgIP3qmWHQ=",
+      "is_superuser": false,
+      "first_name": "Ivan",
+      "last_name": "Ivanov",
+      "is_staff": false,
+      "is_active": true,
+      "email": "ivan@mail.ru",
+      "role": "user",
+      "image": "",
+      "phone": null
+    }
+  },
+  {
+    "model": "users.user",
+    "fields": {
+      "password": "pbkdf2_sha256$720000$RZnNMPXNh44t4M6iOxwwJh$0QRkOisEGkhYcV7tyL2o+7Fx23rpsH4xxbgIP3qmWHQ=",
+      "is_superuser": false,
+      "first_name": "Natalia",
+      "last_name": "Melnik",
+      "is_staff": false,
+      "is_active": true,
+      "email": "nat@mail.ru",
+      "role": "user",
+      "image": "",
+      "phone": "8-888-888"
+    }
+  }
+]

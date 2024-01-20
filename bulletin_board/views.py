@@ -48,7 +48,7 @@ class AdUpdateAPIView(generics.UpdateAPIView):
 
 
 class AdDestroyAPIView(generics.DestroyAPIView):
-    """Эндпоинт удаления привычки"""
+    """Эндпоинт удаления объявления"""
     queryset = Ad.objects.all()
     permission_classes = [IsAuthenticated, IsAuthor or IsAdmin]
 
